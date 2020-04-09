@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Westagram</title>
+    <link href="style/common.css" rel="stylesheet" type="text/css" />
+     <link href="style/main.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body> 
+    <section class="main-paage">
+      <nav class="navigation">
+        <div class="nav-content">
+          <div class="nav-left">
+            <div class="main-icon">
+              <img src="https://s3.ap-northeast-2.amazonaws.com/cdn.wecode.co.kr/bearu/logo.png" alt="인스타그램 로고" />
+            </div>
+            <div class="right-bar"></div>
+            <div class="logo">
+              <img src="./img/logo_text.png" alt="인스타그램 텍스트 로고"/>
+            </div>
+          </div>
+          <div class="search">
+            <input class="search-input" placeholder="검색"/>
+            <div class="search-content">
+              <span class="search-img"></span>
+              <!-- <span class="search-text">검색</span> -->
+          </div>          
+        </div> 
+        <div class="nav-icons">
+          <div class="icon-home">
+            <img src="https://s3.ap-northeast-2.amazonaws.com/cdn.wecode.co.kr/bearu/explore.png" alt="우측 탐색 아이콘" />   
+          </div>            
+          <div class="icon-like">
+            <img src="https://s3.ap-northeast-2.amazonaws.com/cdn.wecode.co.kr/bearu/heart.png" alt="우측 하트 아이콘" />
+          </div>
+          <div class="icon-me">
+            <img src="https://s3.ap-northeast-2.amazonaws.com/cdn.wecode.co.kr/bearu/profile.png" alt="우측 나 아이콘" />
+          </div>            
+        </div>                  
+      </nav>
+      <main class="main-view">
+        <div class="main-container">          
+          <div class="feeds">
+            <div class="article">
+              <div class="feed-header">
+                <div class="header-left">
+                  <div class="header-img">
+                    <img src="https://scontent-gmp1-1.cdninstagram.com/v/t51.2885-19/s150x150/23279877_1863043757284358_7822927705803849728_n.jpg?_nc_ht=scontent-gmp1-1.cdninstagram.com&_nc_ohc=4x_Bhzr9NTkAX9zhNyZ&oh=763a63d93337f6662892c6beeaf42fd0&oe=5EB4982C" alt="프로필사진"/>
+                  </div>
+                  <div class="header-id">daniicho</div>
+                </div>
+                <div class="header-option">
+                  <img src="https://s3.ap-northeast-2.amazonaws.com/cdn.wecode.co.kr/bearu/more.png" alt="피드 three dots" />
+                </div>
+              </div>
+              <div class="content-img">
+                <img src="https://scontent-gmp1-1.cdninstagram.com/v/t51.2885-15/e35/92342346_220686882541759_4396956561295467495_n.jpg?_nc_ht=scontent-gmp1-1.cdninstagram.com&_nc_cat=107&_nc_ohc=Zh71_UBwoxkAX89YuzV&oh=a5d2290ed1ae69c0961d26ca33039afe&oe=5E8DB6EB" alt="피드 이미지" />
+              </div>
+            </div>
+              <div class="feed">
+              <div class="feed-icons">
+                <div class="feed-icon">
+                  <div class="feed-left">
+                    <div class="ficon-heart">
+                      <img src="https://s3.ap-northeast-2.amazonaws.com/cdn.wecode.co.kr/bearu/heart.png" alt="피드 하트 아이콘" />
+                    </div>
+                    <div class="ficon-comment">
+                      <img src="https://s3.ap-northeast-2.amazonaws.com/cdn.wecode.co.kr/bearu/comment.png" alt="피드 말풍선 아이콘" />
+                    </div>
+                    <div class="ficon-share">
+                      <img src="https://s3.ap-northeast-2.amazonaws.com/cdn.wecode.co.kr/bearu/share.png" alt="피드 공유 아이콘" />
+                    </div>
+                  </div>
+                  <div class="bookmark">
+                    <img src="https://s3.ap-northeast-2.amazonaws.com/cdn.wecode.co.kr/bearu/bookmark.png" alt="피드 북마크 아이콘" />
+                  </div>
+                </div>
+              </div>
+                <div class="notice">
+                  <img>
+                  <a>mini_bbo</a>님
+                  <a>여러 명</a>이 좋아합니다
+                </div> 
+                <div class="comments">
+                  <div class="comment1">
+                    <a class="comment-id">pengsooo_ssol</a>
+                    <span> 이번 EP.101편 정말❤️ 자이원배로 바꾸느라 고생하셨을 제작진분들👍</span> 
+                    <p class="tag">#펭수 #자이원배</p>
+                  </div>
+                  <div class="comment-count">
+                    <a>댓글 13개 모두 보기</a>
+                  </div>
+                  <div class="comment2">
+                    <a class="comment-id">lauvl_v</a>
+                    <span><a class="tag">@hanrina1934</a> 귀여운 펭수 보세요👀</span> 
+                  </div>
+                  <div class="comment3">
+                    <a class="comment-id">hanrina1934</a>
+                    <span><a class="tag">@lauvl_v</a> 멍충이 펭수</span>                     
+                  </div>
+                  <!-- <button class="wpO6b ZQScA" type="button"><svg aria-label="좋아요" class="_8-yf5 " fill="#8e8e8e" height="12" viewBox="0 0 48 48" width="12"><path clip-rule="evenodd" d="M34.3 3.5C27.2 3.5 24 8.8 24 8.8s-3.2-5.3-10.3-5.3C6.4 3.5.5 9.9.5 17.8s6.1 12.4 12.2 17.8c9.2 8.2 9.8 8.9 11.3 8.9s2.1-.7 11.3-8.9c6.2-5.5 12.2-10 12.2-17.8 0-7.9-5.9-14.3-13.2-14.3zm-1 29.8c-5.4 4.8-8.3 7.5-9.3 8.1-1-.7-4.6-3.9-9.3-8.1-5.5-4.9-11.2-9-11.2-15.6 0-6.2 4.6-11.3 10.2-11.3 4.1 0 6.3 2 7.9 4.2 3.6 5.1 1.2 5.1 4.8 0 1.6-2.2 3.8-4.2 7.9-4.2 5.6 0 10.2 5.1 10.2 11.3 0 6.7-5.7 10.8-11.2 15.6z" fill-rule="evenodd"></path></svg></button>
+
+                  <path clip-rule="evenodd" d="M34.3 3.5C27.2 3.5 24 8.8 24 8.8s-3.2-5.3-10.3-5.3C6.4 3.5.5 9.9.5 17.8s6.1 12.4 12.2 17.8c9.2 8.2 9.8 8.9 11.3 8.9s2.1-.7 11.3-8.9c6.2-5.5 12.2-10 12.2-17.8 0-7.9-5.9-14.3-13.2-14.3zm-1 29.8c-5.4 4.8-8.3 7.5-9.3 8.1-1-.7-4.6-3.9-9.3-8.1-5.5-4.9-11.2-9-11.2-15.6 0-6.2 4.6-11.3 10.2-11.3 4.1 0 6.3 2 7.9 4.2 3.6 5.1 1.2 5.1 4.8 0 1.6-2.2 3.8-4.2 7.9-4.2 5.6 0 10.2 5.1 10.2 11.3 0 6.7-5.7 10.8-11.2 15.6z" fill-rule="evenodd"></path></span>
+                -->
+                </div>
+                <div class="comment-hour">
+                <span>13시간 전</span>
+                </div>                
+                <div class="write">
+                  <div class="write-comment">
+                    <div class="line"></div>
+                    <div class="write-area">
+                      <div class="text-area">
+                        <input id="comment-write" class="label-comment" placeholder="댓글 달기..."></p>
+                      </div>
+                      <button id="enter" class="enter">
+                        <span class="label-enter">게시</span>                        
+                      </div>
+                    </div>
+                  </div>
+                </div>               
+              </div>
+              </div>
+              
+              <!-- <div></div> -->
+           
+          <!-- </div> -->
+        
+        <div class="margin-right">
+          <div class="user">
+            <div class="user-picture">              
+              <img src="https://scontent-gmp1-1.cdninstagram.com/v/t51.2885-19/s150x150/23279877_1863043757284358_7822927705803849728_n.jpg?_nc_ht=scontent-gmp1-1.cdninstagram.com&_nc_ohc=4x_Bhzr9NTkAX9zhNyZ&oh=763a63d93337f6662892c6beeaf42fd0&oe=5EB4982C" alt="user 사진"/>
+            </div>
+            <div class="user-id">
+              <a class="id">danbiicho</a>
+              <p class="id-comment">룰루랄라🎈danbi</p>
+            </div>
+          </div>
+          <div class="story-section">
+            <div class="story-label">
+              <div class="label-left">
+                <span>스토리</span>
+              </div>
+              <div class="label-right">
+                <span>모두 보기</span>
+              </div>
+            </div>
+            <div style="height: 182px; overflow: hidden auto;">
+              <div class="stories">
+                <div class="story1">
+                  <div class="suser-picture">
+                    <img src="https://scontent-gmp1-1.cdninstagram.com/v/t51.2885-19/s150x150/82798001_484609542462294_3392715914037166080_n.jpg?_nc_ht=scontent-gmp1-1.cdninstagram.com&_nc_ohc=GiNvK5RJ4n0AX8x0fGy&oh=84b650e9c8ea1472affffbb14b56f444&oe=5EB42456" alt="스토리 유저" />
+                  </div>
+                  <div class="suser-info">
+                    <div class="suser-id">
+                      <a class="id-text">
+                        pengsooo_ssol
+                      </a>
+                    </div>
+                    <div class="suser-hour">
+                      <span>
+                        1시간 전
+                      </span>
+                    </div>
+                  </div>
+                </div>
+                <div class="story1">
+                  <div class="suser-picture">
+                    <img src="https://scontent-gmp1-1.cdninstagram.com/v/t51.2885-19/s150x150/82798001_484609542462294_3392715914037166080_n.jpg?_nc_ht=scontent-gmp1-1.cdninstagram.com&_nc_ohc=GiNvK5RJ4n0AX8x0fGy&oh=84b650e9c8ea1472affffbb14b56f444&oe=5EB42456" alt="스토리 유저" />
+                  </div>
+                  <div class="suser-info">
+                    <div class="suser-id">
+                      <a class="id-text">
+                        pengsooo_ssol
+                      </a>
+                    </div>
+                    <div class="suser-hour">
+                      <span>
+                        1시간 전
+                      </span>
+                    </div>
+                  </div>
+                </div>
+                <div class="story1">
+                  <div class="suser-picture">
+                    <img src="https://scontent-gmp1-1.cdninstagram.com/v/t51.2885-19/s150x150/82798001_484609542462294_3392715914037166080_n.jpg?_nc_ht=scontent-gmp1-1.cdninstagram.com&_nc_ohc=GiNvK5RJ4n0AX8x0fGy&oh=84b650e9c8ea1472affffbb14b56f444&oe=5EB42456" alt="스토리 유저" />
+                  </div>
+                  <div class="suser-info">
+                    <div class="suser-id">
+                      <a class="id-text">
+                        pengsooo_ssol
+                      </a>
+                    </div>
+                    <div class="suser-hour">
+                      <span>
+                        1시간 전
+                      </span>
+                    </div>
+                  </div>
+                </div>
+                <div class="story1">
+                  <div class="suser-picture">
+                    <img src="https://scontent-gmp1-1.cdninstagram.com/v/t51.2885-19/s150x150/82798001_484609542462294_3392715914037166080_n.jpg?_nc_ht=scontent-gmp1-1.cdninstagram.com&_nc_ohc=GiNvK5RJ4n0AX8x0fGy&oh=84b650e9c8ea1472affffbb14b56f444&oe=5EB42456" alt="스토리 유저" />
+                  </div>
+                  <div class="suser-info">
+                    <div class="suser-id">
+                      <a class="id-text">
+                        pengsooo_ssol
+                      </a>
+                    </div>
+                    <div class="suser-hour">
+                      <span>
+                        1시간 전
+                      </span>
+                    </div>
+                  </div>
+                </div>
+                <div class="story1">
+                  <div class="suser-picture">
+                    <img src="https://scontent-gmp1-1.cdninstagram.com/v/t51.2885-19/s150x150/82798001_484609542462294_3392715914037166080_n.jpg?_nc_ht=scontent-gmp1-1.cdninstagram.com&_nc_ohc=GiNvK5RJ4n0AX8x0fGy&oh=84b650e9c8ea1472affffbb14b56f444&oe=5EB42456" alt="스토리 유저" />
+                  </div>
+                  <div class="suser-info">
+                    <div class="suser-id">
+                      <a class="id-text">
+                        pengsooo_ssol
+                      </a>
+                    </div>
+                    <div class="suser-hour">
+                      <span>
+                        1시간 전
+                      </span>
+                    </div>
+                  </div>
+                </div>
+                <div class="story1">
+                  <div class="suser-picture">
+                    <img src="https://scontent-gmp1-1.cdninstagram.com/v/t51.2885-19/s150x150/82798001_484609542462294_3392715914037166080_n.jpg?_nc_ht=scontent-gmp1-1.cdninstagram.com&_nc_ohc=GiNvK5RJ4n0AX8x0fGy&oh=84b650e9c8ea1472affffbb14b56f444&oe=5EB42456" alt="스토리 유저" />
+                  </div>
+                  <div class="suser-info">
+                    <div class="suser-id">
+                      <a class="id-text">
+                        pengsooo_ssol
+                      </a>
+                    </div>
+                    <div class="suser-hour">
+                      <span>
+                        1시간 전
+                      </span>
+                    </div>
+                  </div>
+                </div>
+                <div class="story1">
+                  <div class="suser-picture">
+                    <img src="https://scontent-gmp1-1.cdninstagram.com/v/t51.2885-19/s150x150/82798001_484609542462294_3392715914037166080_n.jpg?_nc_ht=scontent-gmp1-1.cdninstagram.com&_nc_ohc=GiNvK5RJ4n0AX8x0fGy&oh=84b650e9c8ea1472affffbb14b56f444&oe=5EB42456" alt="스토리 유저" />
+                  </div>
+                  <div class="suser-info">
+                    <div class="suser-id">
+                      <a class="id-text">
+                        pengsooo_ssol
+                      </a>
+                    </div>
+                    <div class="suser-hour">
+                      <span>
+                        1시간 전
+                      </span>
+                    </div>
+                  </div>
+                </div>
+                <div class="story1">
+                  <div class="suser-picture">
+                    <img src="https://scontent-gmp1-1.cdninstagram.com/v/t51.2885-19/s150x150/82798001_484609542462294_3392715914037166080_n.jpg?_nc_ht=scontent-gmp1-1.cdninstagram.com&_nc_ohc=GiNvK5RJ4n0AX8x0fGy&oh=84b650e9c8ea1472affffbb14b56f444&oe=5EB42456" alt="스토리 유저" />
+                  </div>
+                  <div class="suser-info">
+                    <div class="suser-id">
+                      <a class="id-text">
+                        pengsooo_ssol
+                      </a>
+                    </div>
+                    <div class="suser-hour">
+                      <span>
+                        1시간 전
+                      </span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="recommen-section">
+            <div class="recommen-label">
+              <div class="rlabel-left">
+                <span>회원님을 위한 추천</span>
+              </div>
+              <div class="rlabel-right">
+                <span>모두 보기</span>
+              </div>
+            </div>
+            <!-- </div> -->
+            <div class="recommens">
+              <div class="recommen1">
+                <div class="recommen-left">
+                  <div class="recommen-picture">
+                    <img src="https://scontent-gmp1-1.cdninstagram.com/v/t51.2885-15/e35/s1080x1080/91947201_147753793420983_572171457336354999_n.jpg?_nc_ht=scontent-gmp1-1.cdninstagram.com&_nc_cat=103&_nc_ohc=kwneKvNC9L0AX_UcDt_&oh=d2e1c73c5c47ab2473df63fbfa37bc5f&oe=5EB4BB3C" alt="fallow 사진" />
+                  </div>
+                  <div class="fallow-group">
+                    <div class="recommen-id">
+                      <a class="fallow-id">
+                        dal_meet
+                      </a>
+                    </div>   
+                    <div class="follow-text">
+                      <span>wecode_bootcamp님 외 2명이</span>
+                    </div>               
+                  </div>
+                
+                
+                </div>
+                <div class="fallow">
+                  <a>팔로우</a>
+                </div>              
+              </div>
+              <div class="recommen1">
+                <div class="recommen-left">
+                  <div class="recommen-picture">
+                    <img src="https://scontent-gmp1-1.cdninstagram.com/v/t51.2885-15/e35/s1080x1080/91947201_147753793420983_572171457336354999_n.jpg?_nc_ht=scontent-gmp1-1.cdninstagram.com&_nc_cat=103&_nc_ohc=kwneKvNC9L0AX_UcDt_&oh=d2e1c73c5c47ab2473df63fbfa37bc5f&oe=5EB4BB3C" alt="fallow 사진" />
+                  </div>
+                  <div class="fallow-group">
+                    <div class="recommen-id">
+                      <a class="fallow-id">
+                        dal_meet
+                      </a>
+                    </div>   
+                    <div class="follow-text">
+                      <span>wecode_bootcamp님 외 2명이</span>
+                    </div>               
+                  </div>
+                
+                
+                </div>
+                <div class="fallow">
+                  <a>팔로우</a>
+                </div>              
+              </div>
+              <div class="recommen1">
+                <div class="recommen-left">
+                  <div class="recommen-picture">
+                    <img src="https://scontent-gmp1-1.cdninstagram.com/v/t51.2885-15/e35/s1080x1080/91947201_147753793420983_572171457336354999_n.jpg?_nc_ht=scontent-gmp1-1.cdninstagram.com&_nc_cat=103&_nc_ohc=kwneKvNC9L0AX_UcDt_&oh=d2e1c73c5c47ab2473df63fbfa37bc5f&oe=5EB4BB3C" alt="fallow 사진" />
+                  </div>
+                  <div class="fallow-group">
+                    <div class="recommen-id">
+                      <a class="fallow-id">
+                        dal_meet
+                      </a>
+                    </div>   
+                    <div class="follow-text">
+                      <span>wecode_bootcamp님 외 2명이</span>
+                    </div>               
+                  </div>
+                
+                
+                </div>
+                <div class="fallow">
+                  <a>팔로우</a>
+                </div>              
+              </div>
+            </div>
+        </div>      
+      </main>
+    </section>
+    <script src="js/main.js"></script>
+  </body>
+</html>
